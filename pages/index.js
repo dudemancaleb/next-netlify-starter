@@ -4,17 +4,16 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    html { 
-  background: url(jump.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-    <div className="container">
+ 
       <Head>
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
+        header {
+          background-image: url(jump.png)
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+        }
       </Head>
 
       <main>
