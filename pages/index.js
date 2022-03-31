@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
           [Click Here to Enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply)
         </p>
