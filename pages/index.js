@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Enter Worcester Ski Supply" />
+        <Header title="[Click here to enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply)" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
