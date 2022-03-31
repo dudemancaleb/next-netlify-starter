@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Enter Worcester Ski Supply" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
