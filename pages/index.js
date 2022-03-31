@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
-          <link "[Click Here to Enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply)"/>
+            [Click Here to Enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply)
         </p>
       </main>
 
