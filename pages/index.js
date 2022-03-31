@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title=[Click here to enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply) />
+        <Header title= />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+         [Click here to enter Worcester Ski Supply](https://csiltler.wixsite.com/worcesterskisupply)
         </p>
       </main>
 
