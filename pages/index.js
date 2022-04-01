@@ -6,7 +6,7 @@ export default function Home() {
   return 
   
       <main>
-        <title>Worcester Ski Supply</title>
+        <title>Worcester Ski Supply test</title>
         <link rel="icon" href="/favicon.ico" />
   
         <Header title="Welcome to Worcester Ski Supply!" />
