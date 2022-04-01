@@ -3,16 +3,17 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
-  return 
-  
-      <main>
-        <title>Worcester Ski Supply test</title>
+  return (
+    <div className="container">
+      <Head>
+        <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-  
-        <Header title="Welcome to Worcester Ski Supply!" />
-        <p className="description">
-            <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
+      </Head>
 
+      <main>
+        <Header title="Welcome to Worcester Ski Supply" />
+        <p className="description">
+          <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
       </main>
 
