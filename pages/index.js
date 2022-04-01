@@ -2,11 +2,18 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
+<html>
+<head>
+    <title>CSS Background Images</title>
+<style type = "text/css">
+  body{
+       background-image: url("jump.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+  }
 export default function Home() {
-  return (
- 
+  return 
   
-
       <main>
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
