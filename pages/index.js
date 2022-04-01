@@ -6,9 +6,10 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    document.body.style.backgroundImage = "url('jump.png')";
+    
     <div className="container">
       <Head>
+        document.body.style.backgroundImage = "url('jump.png')";
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
        
