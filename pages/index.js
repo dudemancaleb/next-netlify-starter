@@ -8,10 +8,14 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          body {
+            background-image: url("jump.png");
+        </style>
       </Head>
 
       <main>
-        <Header title="Welcome to Worcester Ski Supply" />
+        <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
