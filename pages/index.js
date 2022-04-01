@@ -10,12 +10,6 @@ export default function Home() {
       <main>
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
-        header {
-          background-image: url(jump.png)
-          background-size: cover;
-          background-position: center;
-          height: 100vh;
-  
   
         <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
