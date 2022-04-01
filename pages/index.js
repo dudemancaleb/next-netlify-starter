@@ -4,6 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+  <html>
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
@@ -25,3 +26,4 @@ export default function Home() {
     </div>
   )
 }
+   </html>
