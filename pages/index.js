@@ -16,14 +16,14 @@ export default function Home() {
       </Head>
 
       <main>
-        
+       document.body.style.backgroundImage = "url('jump.png')";
         <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
           
       </main>
-    document.body.style.backgroundImage = "url('jump.png')";
+   
       <Footer />
     </div>
   )
