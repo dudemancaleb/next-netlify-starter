@@ -6,7 +6,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    document.getElementById('a').style.backgroundImage="url(images/img.jpg)";
+    document.getElementById('a').style.backgroundImage="url(jump.png)";
     <div className="container">
       <Head>
         
