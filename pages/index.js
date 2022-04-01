@@ -15,20 +15,20 @@ export default function Home() {
       </Head>
 
       <main>
-        <button type="button" onclick="myFunction()">Set background color</button>
-
-        <script>
-        function myFunction() {
-          document.body.style.backgroundColor = "red";
-        }
-        </script>
+        
 
 
         <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
-          
+         <button type="button" onclick="myFunction()">Set background color</button>
+
+        <script>
+        function myFunction() {
+          document.body.style.backgroundColor = "red";
+        }
+        </script>
       </main>
    
       <Footer />
