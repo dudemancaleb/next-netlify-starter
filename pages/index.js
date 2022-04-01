@@ -10,7 +10,7 @@ export default function Home() {
     <div className="container">
       <Head>
         
-        <title>Worcester Ski Supply!</title>
+        <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
@@ -21,9 +21,9 @@ export default function Home() {
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
-          document.body.style.backgroundImage = "url('jump.png')";
+          
       </main>
-
+    document.body.style.backgroundImage = "url('jump.png')";
       <Footer />
     </div>
   )
