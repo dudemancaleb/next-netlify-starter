@@ -9,12 +9,14 @@ export default function Home() {
     <div className="container">
       <Head>
         
-        <title>Worcester Ski Supply</title>
+        <title>Worcester Ski Supply!</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
 
       <main>
+        document.body.style.backgroundColor = "red";
+
         <Header title="Welcome to Worcester Ski Supply!" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
