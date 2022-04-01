@@ -2,16 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-<html>
-<head>
-    <title>CSS Background Images</title>
-<style type = "text/css">
-  body{
-       background-image: url("jump.png");
-       background-size: cover;
-       background-repeat: no-repeat;
-  }
-</style>
+
 export default function Home() {
   return 
   
