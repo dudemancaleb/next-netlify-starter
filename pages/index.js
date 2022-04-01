@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container">
       <Head>
         
-        <title>Worcester Ski Supply!</title>
+        <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
@@ -22,17 +22,25 @@ export default function Home() {
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
-         <button type="button" onclick="myFunction()">Set background color</button>
-
-        <script>
-        function myFunction() {
-          document.body.style.backgroundColor = "red";
-        }
-        </script>
+       
       </main>
    
       <Footer />
     </div>
   )
 }
-  
+<html>
+<body>
+
+<h1>Hello World!</h1>
+
+<button type="button" onclick="myFunction()">Set background color</button>
+
+<script>
+function myFunction() {
+  document.body.style.backgroundColor = "red";
+}
+</script>
+
+</body>
+</html>
