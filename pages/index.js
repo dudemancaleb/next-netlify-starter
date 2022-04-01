@@ -11,6 +11,7 @@ import Footer from '@components/Footer'
        background-size: cover;
        background-repeat: no-repeat;
   }
+</style>
 export default function Home() {
   return 
   
