@@ -4,15 +4,12 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-  <html>
+ 
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-        <style>
-          body {
-            background-image: url("jump.png");
-        </style>
+       
       </Head>
 
       <main>
@@ -26,4 +23,4 @@ export default function Home() {
     </div>
   )
 }
-   </html>
+  
