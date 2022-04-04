@@ -8,9 +8,9 @@ export default function Home() {
     <div className="container">
       <Head>
         <style>
-          body {
-            background-image: url("pages/jump.png");
-          }
+          background-image:
+            linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+            url('https://alltracksacademy.com/wp-content/uploads/2015/07/whistler-season-2014-alltracks-037-sf.jpg');
         </style>
   
   
@@ -23,8 +23,7 @@ export default function Home() {
         
 
 
-//         <Header title="Welcome to Worcester Ski Supply 123" />
-        <Header title="Caleb is gay" />
+        <Header title="Welcome to Worcester Ski Supply" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
