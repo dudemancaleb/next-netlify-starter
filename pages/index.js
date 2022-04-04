@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <style>
           body {
-            background-image: url("jump.png");
+            background-image: url("pages/jump.png");
           }
         </style>
   
