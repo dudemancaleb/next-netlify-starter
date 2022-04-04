@@ -23,7 +23,7 @@ export default function Home() {
         
 
 
-        <Header title="Welcome to Worcester Ski Supply" />
+        <Header title="Welcome to Worcester Ski Supply 123" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
