@@ -7,13 +7,15 @@ export default function Home() {
     <div className="container">
       <Head>
         
-        <title>Worcester Ski Supply</title>
+        <title>Worcester Ski Supply!</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
 
       <main>
-        
+        background-image:
+          linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+          url('jump.png');
 
 
         <Header title="Welcome to Worcester Ski Supply!" />
