@@ -7,16 +7,18 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        
+        <style>
+          background-color: red;
+        </style>
+  
+  
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
     
       <main>
-        <style>
-          background-image: url("jump.png");
-        </style>
+        
 
 
         <Header title="Welcome to Worcester Ski Supply 123" />
