@@ -13,15 +13,14 @@ export default function Home() {
        
       </Head>
         <style>
-          background-image:
-            linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
-            url('jump.png');
+          background-color: lightblue;
+            
         </style>
       <main>
         
 
 
-        <Header title="Welcome to Worcester Ski Supply!" />
+        <Header title="Welcome to Worcester Ski Supply test" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
