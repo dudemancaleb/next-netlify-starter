@@ -13,14 +13,23 @@ export default function Home() {
        
       </Head>
         <style>
-          background-color: lightblue;
+          h1 {
+            color: blue;
+            background-color: yellow;
+            border: 1px solid black;
+          }
+
+          p {
+            color: red;
+          }
+        </style>
             
         </style>
       <main>
         
 
 
-        <Header title="Welcome to Worcester Ski Supply test" />
+        <Header title="Welcome to Worcester Ski Supply 123" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
