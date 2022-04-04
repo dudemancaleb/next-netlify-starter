@@ -23,7 +23,8 @@ export default function Home() {
         
 
 
-        <Header title="Welcome to Worcester Ski Supply 123" />
+//         <Header title="Welcome to Worcester Ski Supply 123" />
+        <Header title="Caleb is gay" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
