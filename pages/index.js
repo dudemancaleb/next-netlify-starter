@@ -5,20 +5,25 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <style>
-         div.withBgImage {
-          background-image: url("jump.png");
-         }
-        </style>
-      </head>
-      <body>
-        <div class="withBgImage">This will have a background image.</div>
-        <p class="withBgImage">This will NOT have a background image.</p>
-      </body>
-     </html>
+    <div className="container">
+      <html lang="en">
+        <Head>
+          <style>
+            div.withBgImage {
+              background-image: url("jump.png");
+            }
+          </style>
+
+          <title>Worcester Ski Supply</title>
+          <link rel="icon" href="/favicon.ico" />
+       
+        </Head>
+    
+        <body>
+          <div class="withBgImage">This will have a background image.</div>
+          <p class="withBgImage">This will NOT have a background image.</p>
+        </body>
+      </html>
 
 
       <main>
