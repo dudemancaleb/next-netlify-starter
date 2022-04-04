@@ -8,22 +8,27 @@ export default function Home() {
     <div className="container">
       <Head>
         <style>
-          background-image:
-            linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
-            url('https://alltracksacademy.com/wp-content/uploads/2015/07/whistler-season-2014-alltracks-037-sf.jpg');
+          div.withBgImage {
+            background-image: url("jump.png");
+          }
         </style>
-  
-  
+
         <title>Worcester Ski Supply</title>
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
     
+      <body>
+        <div class="withBgImage">This will have a background image.</div>
+        <p class="withBgImage">This will NOT have a background image.</p>
+      </body>
+
+
       <main>
         
 
 
-        <Header title="Welcome to Worcester Ski Supply" />
+        <Header title="Welcome to Worcester Ski Supply 123" />
         <p className="description">
           <a href="https://csiltler.wixsite.com/worcesterskisupply"> Click Here to Enter </a>
         </p>
