@@ -12,21 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
        
       </Head>
-        <style>
-          h1 {
-            color: blue;
-            background-color: yellow;
-            border: 1px solid black;
-          }
-
-          p {
-            color: red;
-          }
-        </style>
-            
-        </style>
+    
       <main>
-        
+        <style>
+          background-image: url("jump.png");
+        </style>
 
 
         <Header title="Welcome to Worcester Ski Supply 123" />
