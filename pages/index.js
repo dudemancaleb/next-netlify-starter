@@ -10,7 +10,7 @@ export default function Home() {
         <Head>
           <style>
             div.withBgImage {
-              background-image: url("jump.png");
+              background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg");
             }
           </style>
 
